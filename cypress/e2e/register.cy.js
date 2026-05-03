@@ -1,4 +1,4 @@
-import { errorMessages } from "../../src/components/Register";
+import { errorMessages } from "../../src/components/Login";
 
 describe('Register Page', () => {
   describe('Error Messages', () => {
@@ -56,7 +56,5 @@ describe('Register Page', () => {
       //asset
       cy.get('[data-cy="submit-button"]').should("not.be.disabled")
     });
-    
-    
   });
 });
