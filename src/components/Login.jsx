@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button, Card, CardBody, CardFooter, CardHeader, Form, FormFeedback, FormGroup, Input, Label } from "reactstrap";
 import axios from "axios";
-//commit atmayı unuttuk
+
 
 const initialValues = {
     ad: '',
